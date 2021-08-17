@@ -1,0 +1,8 @@
+fragment usrRes on UserResponse {
+	errors {
+		...err
+	}
+	user {
+		...usr
+	}
+}

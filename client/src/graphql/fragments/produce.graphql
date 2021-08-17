@@ -1,0 +1,10 @@
+fragment produce on Product {
+	id
+	brand
+	name
+	bottleSize
+	boxSize
+	caseSize
+	itemCode
+	barcode
+}

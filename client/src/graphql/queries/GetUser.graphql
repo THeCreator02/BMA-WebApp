@@ -1,0 +1,5 @@
+query GetUser($id: Int!) {
+	getUser(id: $id) {
+		...usr
+	}
+}

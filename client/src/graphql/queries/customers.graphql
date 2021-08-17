@@ -1,0 +1,5 @@
+query Customers($limit: Int!, $cursor: String) {
+	customers(limit: $limit, cursor: $cursor) {
+		...consumer
+	}
+}

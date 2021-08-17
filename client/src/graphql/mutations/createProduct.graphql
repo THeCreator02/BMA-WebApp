@@ -1,0 +1,7 @@
+mutation CreateProduct($productIds: [Int!]!, $quantity: [Int!]!) {
+	createProduct(
+		productInput: { quantity: $quantity, productId: $productIds }
+	) {
+		id
+	}
+}

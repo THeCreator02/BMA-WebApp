@@ -1,0 +1,12 @@
+fragment consumer on Customer {
+	id
+	name
+	address
+	city
+	zipcode
+	phoneNumber
+	email
+	orders {
+		...ordr
+	}
+}

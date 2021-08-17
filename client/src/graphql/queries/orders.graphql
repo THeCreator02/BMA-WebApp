@@ -1,0 +1,5 @@
+query Orders($limit: Int!, $cursor: String) {
+	orders(limit: $limit, cursor: $cursor) {
+		...ordr
+	}
+}

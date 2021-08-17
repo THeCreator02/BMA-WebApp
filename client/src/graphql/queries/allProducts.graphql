@@ -1,0 +1,9 @@
+query AllProducts {
+	allProducts {
+		id
+		brand
+		name
+		boxSize
+		bottleSize
+	}
+}

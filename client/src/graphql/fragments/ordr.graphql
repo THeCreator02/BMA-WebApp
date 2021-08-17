@@ -1,0 +1,34 @@
+fragment ordr on Order {
+	id
+	orderNumber
+	status
+	user {
+		id
+		username
+		email
+	}
+	customer {
+		id
+		name
+		city
+		phoneNumber
+		zipcode
+		address
+		email
+	}
+	productIds
+	products {
+		quantity
+		completed
+		product {
+			id
+			name
+			boxSize
+			bottleSize
+			caseSize
+			formula
+		}
+	}
+	createdOn
+	updatedOn
+}

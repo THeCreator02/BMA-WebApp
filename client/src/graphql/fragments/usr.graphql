@@ -1,0 +1,5 @@
+fragment usr on User {
+	id
+	username
+	email
+}

@@ -1,0 +1,5 @@
+query GetProducts($productIds: [Int!]!) {
+	getProducts(productIds: $productIds) {
+		...produce
+	}
+}
